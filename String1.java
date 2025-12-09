@@ -6,6 +6,7 @@ class String1 {
         String s2 = sc.nextLine();
         int count = userMainCode.countOccurance(s1, s2);
         System.out.println(count);
+        sc.close();
     }
 }
 
